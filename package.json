@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "name": "mono-repo",
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "lerna": "^5.4.3"
+    },
+    "scripts": {
+        "test":"lerna run test --scope={@mono-repo/workspace-a,@mono-repo/workspace-b}"
+    }
+}

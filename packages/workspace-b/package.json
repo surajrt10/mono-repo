@@ -1,0 +1,12 @@
+{
+  "name": "@mono-repo/workspace-b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@mono-repo/workspace-a":"1.0.0"
+  },
+  "scripts": {
+    "test":"echo 'running test in workspace-b'"
+}
+}

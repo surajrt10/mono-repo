@@ -1,6 +1,7 @@
 module.exports = () => {
-    console.log("INSIDE WORKSPACE A");
-    
-    
-
+    {
+    function showversion(){
+        console.log("1.0.0");
+    }
+    }
 };

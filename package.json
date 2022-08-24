@@ -8,6 +8,7 @@
         "lerna": "^5.4.3"
     },
     "scripts": {
+        "new-version":"lerna version --yes",
         "test":"lerna run test --scope={@mono-repo/workspace-a,@mono-repo/workspace-b}"
     }
 }
